@@ -196,4 +196,4 @@ If this project helped you, please give it a ⭐ on GitHub!
 
 <div align="center">
 
-**Made with ❤️ for BCA students**
+**Made with 💜Babamosie333 for BCA students**
