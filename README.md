@@ -6,12 +6,8 @@
 
 **A modern, interactive MCQ practice platform for BCA students**
 
-[
-[
-[
-[
 
-[🚀 Live Demo](#) -  [📖 Documentation](#features) -  [🐛 Report Bug](https://github.com/babamosie333/bca-mcq-hub/issues)
+[🚀 Live Demo](https://bca-4th-sem-mcqs.vercel.app/) -  [📖 Documentation](#features) -  [🐛 Report Bug](https://github.com/babamosie333/bca-mcq-hub/issues)
 
 </div>
 
