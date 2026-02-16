@@ -1,36 +1,199 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 MCQ Master - BCA Exam Preparation Platform
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+
+
+**A modern, interactive MCQ practice platform for BCA students**
+
+[
+[
+[
+[
+
+[🚀 Live Demo](#) -  [📖 Documentation](#features) -  [🐛 Report Bug](https://github.com/babamosie333/bca-mcq-hub/issues)
+
+</div>
+
+***
+
+## ✨ Features
+
+🎯 **500+ Curated MCQs** - Comprehensive question bank covering all major BCA subjects
+
+⏱️ **Smart Timer System** - 30-minute timed tests with real-time countdown
+
+📊 **Instant Results** - Detailed performance analysis with correct/incorrect breakdown
+
+🎨 **Modern UI/UX** - Dark-themed, responsive design with smooth animations
+
+📱 **Mobile Responsive** - Seamless experience across all devices
+
+🔄 **Unit-wise Practice** - Each subject divided into 2 units with 50 questions each
+
+***
+
+## 📚 Subjects Covered
+
+| Subject | Questions | Units | Topics |
+|---------|-----------|-------|--------|
+| 🎨 **Computer Graphics** | 100 | 2 | Interactive Graphics, Scan Conversion, Clipping Algorithms |
+| 💾 **Database Management** | 100 | 2 | Data Models, DBMS Architecture, E-R Modeling |
+| ⚙️ **Software Engineering** | 100 | 2 | Software Paradigms, Requirements Analysis |
+| 📊 **Optimization Techniques** | 100 | 2 | Linear Programming, Game Theory, Network Analysis |
+| 🔢 **Mathematics-III** | 100 | 2 | Laplace Transform, Fourier Series, PDEs |
+
+***
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/babamosie333/bca-mcq-hub.git
+
+# Navigate to project directory
+cd bca-mcq-hub
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+***
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗️ Project Structure
 
-## Learn More
+```
+bca-mcq-hub/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx                    # Home page
+│   │   ├── quiz/
+│   │   │   └── [subject]/
+│   │   │       └── page.tsx            # Quiz interface
+│   │   └── result/
+│   │       └── page.tsx                # Results page
+│   └── data/
+│       ├── types.ts                    # TypeScript interfaces
+│       ├── subjects.ts                 # Subject metadata
+│       ├── computer-graphics.ts        # CG MCQs
+│       ├── dbms.ts                     # DBMS MCQs
+│       ├── software-engineering.ts     # SE MCQs
+│       ├── optimization.ts             # OT MCQs
+│       └── mathematics.ts              # Math MCQs
+├── public/
+├── tailwind.config.ts
+├── package.json
+└── README.md
+```
 
-To learn more about Next.js, take a look at the following resources:
+***
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎮 How to Use
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Choose a Subject** - Select from 5 available subjects on the home page
+2. **Start Quiz** - Begin with Unit 1 (50 questions)
+3. **Answer Questions** - Select your answer from 4 options (A, B, C, D)
+4. **Track Progress** - Monitor your progress with the real-time timer
+5. **Complete Units** - Finish both Unit 1 and Unit 2 (100 total questions)
+6. **View Results** - Get instant feedback with detailed performance metrics
 
-## Deploy on Vercel
+***
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Built With
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **[Next.js 15](https://nextjs.org/)** - React framework for production
+- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[Lucide React](https://lucide.dev/)** - Beautiful icon library
+- **[React](https://react.dev/)** - UI component library
+
+***
+
+## 🎨 Design Philosophy
+
+- **Dark Theme First** - Easy on the eyes during long study sessions
+- **Minimal Distractions** - Clean interface focused on learning
+- **Instant Feedback** - Immediate validation after each answer
+- **Progress Tracking** - Visual indicators for motivation
+- **Accessibility** - Keyboard navigation and screen reader support
+
+***
+
+
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+***
+
+## 🐛 Known Issues
+
+- [ ] Timer doesn't pause when switching tabs (feature consideration)
+- [ ] No bookmark feature for questions (planned)
+- [ ] No practice mode without timer (planned)
+
+***
+
+## 🔮 Roadmap
+
+- [ ] User authentication & progress saving
+- [ ] Leaderboard system
+- [ ] Bookmark difficult questions
+- [ ] Practice mode (untimed)
+- [ ] Subject-wise analytics
+- [ ] PDF report generation
+- [ ] Mobile app (React Native)
+
+***
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+***
+
+## 👨‍💻 Author
+
+**Vikram Singh**
+
+- Portfolio: [babamosie333.github.io/Personal-Portfolio](https://babamosie333.github.io/Personal-Portfolio/)
+- GitHub: [@babamosie333](https://github.com/babamosie333)
+
+***
+
+## 🙏 Acknowledgments
+
+- Question bank compiled from BCA curriculum
+- UI inspiration from modern AI tools
+- Icons by [Lucide](https://lucide.dev/)
+
+***
+
+## ⭐ Show Your Support
+
+If this project helped you, please give it a ⭐ on GitHub!
+
+***
+
+<div align="center">
+
+**Made with ❤️ for BCA students**
